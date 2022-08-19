@@ -1,6 +1,7 @@
 /*++
 
-Copyright (c) 1989-2011  Microsoft Corporation
+Modified by Neehack Corporatation
+Copyright (c) 2011  Microsoft Corporation
 
 Module Name:
 
@@ -8,15 +9,19 @@ Module Name:
 
 Abstract:
 
-    Header file which contains the structures, type definitions,
-    constants, global variables and function prototypes that are
-    only visible within the kernel. Mainly used by avscan module.
+    This is the main module of the avscan mini-filter driver.
+    This filter demonstrates how to implement a transaction-aware
+    anti-virus filter.
+
+    Av prefix denotes "Anti-virus" module.
 
 Environment:
 
     Kernel mode
 
 --*/
+
+
 #ifndef __AVSCAN_H__
 #define __AVSCAN_H__
 

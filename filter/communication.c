@@ -1,5 +1,6 @@
 /*++
 
+Modified by Neehack Corporatation
 Copyright (c) 2011  Microsoft Corporation
 
 Module Name:
@@ -8,9 +9,11 @@ Module Name:
 
 Abstract:
 
-    Communication module implementation.
-    This module contains the routines that involves the communication
-    between kernel mode and user mode.
+    This is the main module of the avscan mini-filter driver.
+    This filter demonstrates how to implement a transaction-aware
+    anti-virus filter.
+
+    Av prefix denotes "Anti-virus" module.
 
 Environment:
 

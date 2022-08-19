@@ -1,21 +1,25 @@
 /*++
 
+Modified by Neehack Corporatation
 Copyright (c) 2011  Microsoft Corporation
 
 Module Name:
 
-    scan.c
+     scan.c
 
 Abstract:
 
-    This modules wraps the scanning routines. 
+    This is the main module of the avscan mini-filter driver.
+    This filter demonstrates how to implement a transaction-aware
+    anti-virus filter.
+
+    Av prefix denotes "Anti-virus" module.
 
 Environment:
 
     Kernel mode
 
 --*/
-
 #include "avscan.h"
 
 //

@@ -1,16 +1,19 @@
 /*++
 
+Modified by Neehack Corporatation
 Copyright (c) 2011  Microsoft Corporation
 
 Module Name:
 
-    utility.c
+     utility.c
 
 Abstract:
 
-    Utility module implementation.
-    1) Generic table routines
-    2) Query file information routines
+    This is the main module of the avscan mini-filter driver.
+    This filter demonstrates how to implement a transaction-aware
+    anti-virus filter.
+
+    Av prefix denotes "Anti-virus" module.
 
 Environment:
 
